@@ -20,7 +20,7 @@ void addBook() {
     getline(cin, newBook.title);
     cout << "Enter author: ";
     getline(cin, newBook.author);
-    cin.ignore(); // to clear the newline character from the buffer
+    cin.ignore();
     cout << "Enter release date: ";
     getline(cin, newBook.releaseDate);
     cout << "Enter genre: ";
